@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>push</title>
+    </head>
+    <body>
+        <script>
+            const arr =['奔驰','宝马','奥迪','爱玛','奥拓',]
+            const arr1 = arr.push('法拉利')
+            // 返回值是6,是数组长度
+            console.log(arr1);
+            // 在数组尾部增加了法拉利
+            console.log(arr);
+            arr.push('雷诺','凯迪拉克','玛莎拉蒂')
+            // 在数组尾部依次增加了,雷诺,凯迪拉克,玛莎拉蒂
+            console.log(arr);
+            
+            // 总结: 
+            // push方法的返回值是数组的长度,在数组的尾部增加想要增加的元素
+        </script>
+    </body>
+</html>
