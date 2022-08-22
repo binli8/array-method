@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>pop</title>
+    </head>
+    <body>
+        <script>
+            const arr = ['苹果','香蕉','西瓜','梨','葡萄','哈密瓜']
+            console.log(arr.pop());     //哈密瓜
+            console.log(arr);           //['苹果', '香蕉', '西瓜', '梨', '葡萄']
+            arr.pop();                  
+            console.log(arr);           //['苹果', '香蕉', '西瓜', '梨']
+            
+
+            const arr1 = ['手机','显示屏','鼠标','电脑']
+            const pops = arr1.pop()
+            console.log(pops);          //电脑
+            console.log(arr1);          //['手机', '显示屏', '鼠标']
+            
+            // 总结:
+            // 从数组的尾部删除一个元素,当数组为空是返回undefined.返回值是从数组中删除的元素
+        </script>
+    </body>
+</html>
