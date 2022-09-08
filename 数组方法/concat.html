@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>concat</title>
+    </head>
+    <body>
+        <script type="text/javascript" >
+        const arr1 = [32,56,35,256,78]
+        const arr2 = [90,80,70]
+        const arr4 = ['d','fv','fbsd','dfav']
+        // const arr3 = arr1.concat(arr2)
+        // console.log(arr3);      //返回值是[32,56,35,256,78,90,80,70]
+        const arr3 = arr1.concat(arr2,arr4)     
+        console.log(arr3);       //返回值是[32, 56, 35, 256, 78, 90, 80, 70, 'd', 'fv', 'fbsd', 'dfav']
+        // 调用concat方法,会将两个数组合并成一个数组,返回一个新数组
+        // concat方法:可以合并多个数组,数组中字符串,数字也可以合并到一个新的数组
+        </script>
+    </body>
+</html>
