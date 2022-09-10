@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>9.isArray</title>
+    </head>
+    <body>
+        <script type="text/javascript" >
+        const arr = ['你好','贵姓','什么','哈哈哈']
+        const arr1 = '年后'
+        const arr2 = 12
+        const arr3 = {}
+        const arr4 = undefined
+        console.log( Array.isArray(arr));   // true
+        console.log( Array.isArray(arr1));  // false
+        console.log( Array.isArray(arr2))   // false
+        console.log( Array.isArray(arr3))   // false
+        console.log(Array.isArray(arr4));   // false
+        // Array.isArray 返回值是布尔类型的
+        //调用Array.isArray可以检测出该数据是不是一个数组类型的数据,如果是数组类型的返回的是true,不是则返回false
+       
+        </script>
+    </body>
+</html>
