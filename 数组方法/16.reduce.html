@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>16.reduce</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const array = [1, 2, 3, 4, 5, 7, 89, 5];
+      const initialValue = 0;
+      const sumWithInitial = array.reduce(
+        (previousValue, currentValue) => previousValue + currentValue,  //求和
+        initialValue
+        // previousValue    //上一次的值,
+        // currentValue     //当前值
+        // initialValue    //返回的值   // 选写
+
+      );
+      console.log(sumWithInitial);      //116
+
+    //   调用reduce方法,会遍历数组的中的元素,每遍历一次就会执行一次回调函数,遍历完将结果返回出去
+    </script>
+  </body>
+</html>

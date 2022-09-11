@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>25.splice</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const arr = [12, 34, 56, 788, "ha", 123];
+      console.log(arr.splice(4)); // ['ha', 123]    从下标是4开始截取
+      console.log(arr.splice(-1,4));    //[788]    
+
+    //  splice可传的参数:
+
+    //   splice(start); 
+    // start参数:(必填)
+    // 指定修改的开始位置（从 0 计数）。如果超出了数组的长度，则从数组末尾开始添加内容；如果是负值，则表示从数组末位开始的第几位
+
+    //   splice(start, deleteCount);
+    //  deleteCount参数:(选填)
+    // 整数，表示要移除的数组元素的个数
+
+
+    //   splice(start, deleteCount, item1);
+
+    //   splice(start, deleteCount, item1, item2, itemN);
+
+
+
+
+
+      // splice 方法改变原数组
+      // splice 方法 从数组中添加或删除项目，然后返回被删除的项目。
+    </script>
+  </body>
+</html>

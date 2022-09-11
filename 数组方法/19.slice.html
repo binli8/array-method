@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>19.slice</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const arr = [1, 2, 3, 45, 6, 78, 9, 0];
+      // 只调用不传参数,返回的还是原来的数组
+      // console.log(arr.slice());   //8) [1, 2, 3, 45, 6, 78, 9, 0]
+
+      // 可从已有数组中返回选定的元素，返回一个新数组，包含从start到end（不包含该元素）的数组元素
+      // start参数：必须，规定从何处开始选取，如果为负数，规定从数组尾部算起的位置，-1是指最后一个元素。
+      // end参数：可选（如果该参数没有指定，那么切分的数组包含从start倒数组结束的所有元素，如果这个参数为负数，那么规定是从数组尾部开始算起的元素）。
+      console.log(arr.slice(1)); // (7) [2, 3, 45, 6, 78, 9, 0]
+
+      // 注意：该方法不会改变原数组，而是返回一个子数组，如果想删除数组中的一段元素，应该使用Array.splice()方法。
+    </script>
+  </body>
+</html>
